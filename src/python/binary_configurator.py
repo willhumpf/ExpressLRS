@@ -37,6 +37,11 @@ class RegulatoryDomain(Enum):
     eu_868 = 'eu_868'
     au_915 = 'au_915'
     fcc_915 = 'fcc_915'
+    rt_800 = 'rt_800'
+    rt_950 = 'rt_950'
+    rt_1G = 'rt_1G'
+    rt_825 = 'rt_825'
+    rt_975 = 'rt_975'
 
     def __str__(self):
         return self.value
@@ -204,7 +209,17 @@ def domain_number(domain):
         return 6
     elif domain == RegulatoryDomain.us_433_wide:
         return 7
-
+    elif domain == RegulatoryDomain.rt_800:
+        return 8
+    elif domain == RegulatoryDomain.rt_950:
+        return 9
+    elif domain == RegulatoryDomain.rt_1G:
+        return 10
+    elif domain == RegulatoryDomain.rt_825:
+        return 11
+    elif domain == RegulatoryDomain.rt_975:
+        return 12
+    
 def patch_firmware(options, mm, pos, args):
     if options.mcuType is MCUType.STM32:
         if options.radioChip is RadioType.SX127X and args.domain:

@@ -11,7 +11,7 @@
 ### BINDING PHRASE: ###
 # Uncomment the line below to use a hardcoded binding phrase
 # Leave commented to use traditional binding
-#-DMY_BINDING_PHRASE="default ExpressLRS binding phrase"
+-DMY_BINDING_PHRASE="RT-Custom"
 
 
 ### REGULATORY DOMAIN: ###
@@ -27,6 +27,11 @@
 #-DRegulatory_Domain_FCC_915
 #-DRegulatory_Domain_ISM_2400
 #-DRegulatory_Domain_EU_CE_2400
+#-DRegulatory_Domain_RT_800
+#-DRegulatory_Domain_RT_950
+#-DRegulatory_Domain_RT_1G
+#-DRegulatory_Domain_RT_825
+-DRegulatory_Domain_RT_975
 
 ### PERFORMANCE OPTIONS: ###
 
@@ -42,6 +47,8 @@
 #-DFAN_MIN_RUNTIME=30
 
 ### COMPATIBILITY OPTIONS: ###
+
+-DUART_INVERTED
 
 # Use a custom baud rate on the receiver for a KISS v1 FC (which runs at 400000) or any other oddball baud
 # Changing this will prevent flashing via_BetaflightPassthrough, which expects a 420000 baud RX
@@ -59,8 +66,8 @@
 ### OTHER OPTIONS: ###
 
 -DAUTO_WIFI_ON_INTERVAL=60
-#-DHOME_WIFI_SSID=""
-#-DHOME_WIFI_PASSWORD=""
+-DHOME_WIFI_SSID="SKYXMCNB"
+-DHOME_WIFI_PASSWORD="PxygygdWm4Zz"
 
 # Enables code for talking to a connected ESP8266 backpack on the TX module, and associated Lua params
 # The device target should enable this automatically for devices that come with this, but can be added
