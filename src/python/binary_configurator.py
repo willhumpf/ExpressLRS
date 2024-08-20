@@ -38,11 +38,48 @@ class RegulatoryDomain(Enum):
     au_915 = 'au_915'
     fcc_915 = 'fcc_915'
     rt_800 = 'rt_800'
+    rt_800_W = 'rt_800_W'
+    rt_810 = 'rt_810'
+    rt_810_W = 'rt_810_W'
+    rt_820 = 'rt_820'
+    rt_820_W = 'rt_820_W'
+    rt_830 = 'rt_830'
+    rt_830_W = 'rt_830_W'
+    rt_840 = 'rt_840'
+    rt_840_W = 'rt_840_W'
+    rt_850 = 'rt_850'
+    rt_850_W = 'rt_850_W'
+    rt_860 = 'rt_860'
+    rt_860_W = 'rt_860_W'
+    rt_870 = 'rt_870'
+    rt_870_W = 'rt_870_W'
+    rt_880 = 'rt_880'
+    rt_880_W = 'rt_880_W'
+    rt_890 = 'rt_890'
+    rt_890_W = 'rt_890_W'
+    rt_900 = 'rt_900'
+    rt_900_W = 'rt_900_W'
+    rt_910 = 'rt_910'
+    rt_910_W = 'rt_910_W'
+    rt_920 = 'rt_920'
+    rt_920_W = 'rt_920_W'
+    rt_930 = 'rt_930'
+    rt_930_W = 'rt_930_W'
+    rt_940 = 'rt_940'
+    rt_940_W = 'rt_940_W'
     rt_950 = 'rt_950'
+    rt_950_W = 'rt_950_W'
+    rt_960 = 'rt_960'
+    rt_960_W = 'rt_960_W'
+    rt_970 = 'rt_970'
+    rt_970_W = 'rt_970_W'
+    rt_980 = 'rt_980'
+    rt_980_W = 'rt_980_W'
+    rt_990 = 'rt_990'
+    rt_990_W = 'rt_990_W'
     rt_1G = 'rt_1G'
-    rt_825 = 'rt_825'
-    rt_975 = 'rt_975'
-
+    rt_1G_W = 'rt_1G_W'
+    rt_Wide = 'rt_Wide'
     def __str__(self):
         return self.value
 
@@ -211,14 +248,91 @@ def domain_number(domain):
         return 7
     elif domain == RegulatoryDomain.rt_800:
         return 8
-    elif domain == RegulatoryDomain.rt_950:
+    elif domain == RegulatoryDomain.rt_800_W:
         return 9
-    elif domain == RegulatoryDomain.rt_1G:
+    elif domain == RegulatoryDomain.rt_810:
         return 10
-    elif domain == RegulatoryDomain.rt_825:
+    elif domain == RegulatoryDomain.rt_810_W:
         return 11
-    elif domain == RegulatoryDomain.rt_975:
+    elif domain == RegulatoryDomain.rt_820:
         return 12
+    elif domain == RegulatoryDomain.rt_820_W:
+        return 13
+    elif domain == RegulatoryDomain.rt_830:
+        return 14
+    elif domain == RegulatoryDomain.rt_830_W:
+        return 15
+    elif domain == RegulatoryDomain.rt_840:
+        return 16
+    elif domain == RegulatoryDomain.rt_840_W:
+        return 17
+    elif domain == RegulatoryDomain.rt_850:
+        return 18
+    elif domain == RegulatoryDomain.rt_850_W:
+        return 19
+    elif domain == RegulatoryDomain.rt_860:
+        return 20
+    elif domain == RegulatoryDomain.rt_860_W:
+        return 21
+    elif domain == RegulatoryDomain.rt_870:
+        return 22
+    elif domain == RegulatoryDomain.rt_870_W:
+        return 23
+    elif domain == RegulatoryDomain.rt_880:
+        return 24
+    elif domain == RegulatoryDomain.rt_880_W:
+        return 25
+    elif domain == RegulatoryDomain.rt_890:
+        return 26
+    elif domain == RegulatoryDomain.rt_890_W:
+        return 27
+    elif domain == RegulatoryDomain.rt_900:
+        return 28
+    elif domain == RegulatoryDomain.rt_900_W:
+        return 29
+    elif domain == RegulatoryDomain.rt_910:
+        return 30
+    elif domain == RegulatoryDomain.rt_910_W:
+        return 31
+    elif domain == RegulatoryDomain.rt_920:
+        return 32
+    elif domain == RegulatoryDomain.rt_920_W:
+        return 33
+    elif domain == RegulatoryDomain.rt_930:
+        return 34
+    elif domain == RegulatoryDomain.rt_930_W:
+        return 35
+    elif domain == RegulatoryDomain.rt_940:
+        return 36
+    elif domain == RegulatoryDomain.rt_940_W:
+        return 37
+    elif domain == RegulatoryDomain.rt_950:
+        return 38
+    elif domain == RegulatoryDomain.rt_950_W:
+        return 39
+    elif domain == RegulatoryDomain.rt_960:
+        return 40
+    elif domain == RegulatoryDomain.rt_960_W:
+        return 41
+    elif domain == RegulatoryDomain.rt_970:
+        return 42
+    elif domain == RegulatoryDomain.rt_970_W:
+        return 43
+    elif domain == RegulatoryDomain.rt_980:
+        return 44
+    elif domain == RegulatoryDomain.rt_980_W:
+        return 45
+    elif domain == RegulatoryDomain.rt_990:
+        return 46
+    elif domain == RegulatoryDomain.rt_990_W:
+        return 47
+    elif domain == RegulatoryDomain.rt_1G:
+        return 48
+    elif domain == RegulatoryDomain.rt_1G_W:
+        return 49
+    elif domain == RegulatoryDomain.rt_Wide:
+        return 50
+    
     
 def patch_firmware(options, mm, pos, args):
     if options.mcuType is MCUType.STM32:

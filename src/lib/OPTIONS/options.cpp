@@ -58,14 +58,90 @@ __attribute__ ((used)) static firmware_options_t flashedOptions = {
     .domain = 7,
     #elif defined(Regulatory_Domain_RT_800)
     .domain = 8,
-    #elif defined(Regulatory_Domain_RT_950)
+    #elif defined(Regulatory_Domain_RT_800_W)
     .domain = 9,
-    #elif defined(Regulatory_Domain_RT_1G)
+    #elif defined(Regulatory_Domain_RT_810)
     .domain = 10,
-    #elif defined(Regulatory_Domain_RT_825)
+    #elif defined(Regulatory_Domain_RT_810_W)
     .domain = 11,
-    #elif defined(Regulatory_Domain_RT_975)
+    #elif defined(Regulatory_Domain_RT_820)
     .domain = 12,
+    #elif defined(Regulatory_Domain_RT_820_W)
+    .domain = 13,
+    #elif defined(Regulatory_Domain_RT_830)
+    .domain = 14,
+    #elif defined(Regulatory_Domain_RT_830_W)
+    .domain = 15,
+    #elif defined(Regulatory_Domain_RT_840)
+    .domain = 16,
+    #elif defined(Regulatory_Domain_RT_840_W)
+    .domain = 17,
+    #elif defined(Regulatory_Domain_RT_850)
+    .domain = 18,
+    #elif defined(Regulatory_Domain_RT_850_W)
+    .domain = 19,
+    #elif defined(Regulatory_Domain_RT_860)
+    .domain = 20,
+    #elif defined(Regulatory_Domain_RT_860_W)
+    .domain = 21,
+    #elif defined(Regulatory_Domain_RT_870)
+    .domain = 22,
+    #elif defined(Regulatory_Domain_RT_870_W)
+    .domain = 23,
+    #elif defined(Regulatory_Domain_RT_880)
+    .domain = 24,
+    #elif defined(Regulatory_Domain_RT_880_W)
+    .domain = 25,
+    #elif defined(Regulatory_Domain_RT_890)
+    .domain = 26,
+    #elif defined(Regulatory_Domain_RT_890_W)
+    .domain = 27,
+    #elif defined(Regulatory_Domain_RT_900)
+    .domain = 28,
+    #elif defined(Regulatory_Domain_RT_900_W)
+    .domain = 29,
+    #elif defined(Regulatory_Domain_RT_910)
+    .domain = 30,
+    #elif defined(Regulatory_Domain_RT_910_W)
+    .domain = 31,
+    #elif defined(Regulatory_Domain_RT_920)
+    .domain = 32,
+    #elif defined(Regulatory_Domain_RT_920_W)
+    .domain = 33,
+    #elif defined(Regulatory_Domain_RT_930)
+    .domain = 34,
+    #elif defined(Regulatory_Domain_RT_930_W)
+    .domain = 35,
+    #elif defined(Regulatory_Domain_RT_940)
+    .domain = 36,
+    #elif defined(Regulatory_Domain_RT_940_W)
+    .domain = 37,
+    #elif defined(Regulatory_Domain_RT_950)
+    .domain = 38,
+    #elif defined(Regulatory_Domain_RT_950_W)
+    .domain = 39,
+    #elif defined(Regulatory_Domain_RT_960)
+    .domain = 40,
+    #elif defined(Regulatory_Domain_RT_960_W)
+    .domain = 41,
+    #elif defined(Regulatory_Domain_RT_970)
+    .domain = 42,
+    #elif defined(Regulatory_Domain_RT_970_W)
+    .domain = 43,
+    #elif defined(Regulatory_Domain_RT_980)
+    .domain = 44,
+    #elif defined(Regulatory_Domain_RT_980_W)
+    .domain = 45,
+    #elif defined(Regulatory_Domain_RT_990)
+    .domain = 46,
+    #elif defined(Regulatory_Domain_RT_990_W)
+    .domain = 47,
+    #elif defined(Regulatory_Domain_RT_1G)
+    .domain = 48,
+    #elif defined(Regulatory_Domain_RT_1G_W)
+    .domain = 49,
+    #elif defined(Regulatory_Domain_RT_Wide)
+    .domain = 50,
     #else
     #error No regulatory domain defined, please define one in user_defines.txt
     #endif

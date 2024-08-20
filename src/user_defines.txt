@@ -11,7 +11,7 @@
 ### BINDING PHRASE: ###
 # Uncomment the line below to use a hardcoded binding phrase
 # Leave commented to use traditional binding
--DMY_BINDING_PHRASE="RT-Custom"
+-DMY_BINDING_PHRASE="RTFPV1"
 
 
 ### REGULATORY DOMAIN: ###
@@ -27,11 +27,49 @@
 #-DRegulatory_Domain_FCC_915
 #-DRegulatory_Domain_ISM_2400
 #-DRegulatory_Domain_EU_CE_2400
-#-DRegulatory_Domain_RT_800
+-DRegulatory_Domain_RT_800
+#-DRegulatory_Domain_RT_800_W
+#-DRegulatory_Domain_RT_810
+#-DRegulatory_Domain_RT_810_W
+#-DRegulatory_Domain_RT_820
+#-DRegulatory_Domain_RT_820_W
+#-DRegulatory_Domain_RT_830
+#-DRegulatory_Domain_RT_830_W
+#-DRegulatory_Domain_RT_840
+#-DRegulatory_Domain_RT_840_W
+#-DRegulatory_Domain_RT_850
+#-DRegulatory_Domain_RT_850_W
+#-DRegulatory_Domain_RT_860
+#-DRegulatory_Domain_RT_860_W
+#-DRegulatory_Domain_RT_870
+#-DRegulatory_Domain_RT_870_W
+#-DRegulatory_Domain_RT_880
+#-DRegulatory_Domain_RT_880_W
+#-DRegulatory_Domain_RT_890
+#-DRegulatory_Domain_RT_890_W
+#-DRegulatory_Domain_RT_900
+#-DRegulatory_Domain_RT_900_W
+#-DRegulatory_Domain_RT_910
+#-DRegulatory_Domain_RT_910_W
+#-DRegulatory_Domain_RT_920
+#-DRegulatory_Domain_RT_920_W
+#-DRegulatory_Domain_RT_930
+#-DRegulatory_Domain_RT_930_W
+#-DRegulatory_Domain_RT_940
+#-DRegulatory_Domain_RT_940_W
 #-DRegulatory_Domain_RT_950
+#-DRegulatory_Domain_RT_950_W
+#-DRegulatory_Domain_RT_960
+#-DRegulatory_Domain_RT_960_W
+#-DRegulatory_Domain_RT_970
+#-DRegulatory_Domain_RT_970_W
+#-DRegulatory_Domain_RT_980
+#-DRegulatory_Domain_RT_980_W
+#-DRegulatory_Domain_RT_990
+#-DRegulatory_Domain_RT_990_W
 #-DRegulatory_Domain_RT_1G
-#-DRegulatory_Domain_RT_825
--DRegulatory_Domain_RT_975
+#-DRegulatory_Domain_RT_1G_W
+#-DRegulatory_Domain_RT_Wide
 
 ### PERFORMANCE OPTIONS: ###
 
@@ -66,8 +104,8 @@
 ### OTHER OPTIONS: ###
 
 -DAUTO_WIFI_ON_INTERVAL=60
--DHOME_WIFI_SSID="SKYXMCNB"
--DHOME_WIFI_PASSWORD="PxygygdWm4Zz"
+#-DHOME_WIFI_SSID=""
+#-DHOME_WIFI_PASSWORD=""
 
 # Enables code for talking to a connected ESP8266 backpack on the TX module, and associated Lua params
 # The device target should enable this automatically for devices that come with this, but can be added

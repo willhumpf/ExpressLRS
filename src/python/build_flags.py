@@ -175,14 +175,90 @@ if '-DRADIO_SX127X=1' in build_flags or '-DRADIO_LR1121=1' in build_flags:
         json_flags['domain'] = 7
     if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_800'):
         json_flags['domain'] = 8
-    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_950'):
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_800_W'):
         json_flags['domain'] = 9
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_810'):
+        json_flags['domain'] = 10
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_810_W'):
+        json_flags['domain'] = 11
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_820'):
+        json_flags['domain'] = 12
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_820_W'):
+        json_flags['domain'] = 13
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_830'):
+        json_flags['domain'] = 14
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_830_W'):
+        json_flags['domain'] = 15
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_840'):
+        json_flags['domain'] = 16
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_840_W'):
+        json_flags['domain'] = 17
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_850'):
+        json_flags['domain'] = 18
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_850_W'):
+        json_flags['domain'] = 19
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_860'):
+        json_flags['domain'] = 20
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_860_W'):
+        json_flags['domain'] = 21
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_870'):
+        json_flags['domain'] = 22
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_870_W'):
+        json_flags['domain'] = 23
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_880'):
+        json_flags['domain'] = 24
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_880_W'):
+        json_flags['domain'] = 25
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_890'):
+        json_flags['domain'] = 26
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_890_W'):
+        json_flags['domain'] = 27
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_900'):
+        json_flags['domain'] = 28
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_900_W'):
+        json_flags['domain'] = 29
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_910'):
+        json_flags['domain'] = 30
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_910_W'):
+        json_flags['domain'] = 31
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_920'):
+        json_flags['domain'] = 32
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_920_W'):
+        json_flags['domain'] = 33
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_930'):
+        json_flags['domain'] = 34
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_930_W'):
+        json_flags['domain'] = 35
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_940'):
+        json_flags['domain'] = 36
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_940_W'):
+        json_flags['domain'] = 37
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_950'):
+        json_flags['domain'] = 38
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_950_W'):
+        json_flags['domain'] = 39
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_960'):
+        json_flags['domain'] = 40
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_960_W'):
+        json_flags['domain'] = 41
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_970'):
+        json_flags['domain'] = 42
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_970_W'):
+        json_flags['domain'] = 43
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_980'):
+        json_flags['domain'] = 44
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_980_W'):
+        json_flags['domain'] = 45
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_990'):
+        json_flags['domain'] = 46
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_990_W'):
+        json_flags['domain'] = 47
     if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_1G'):
-        json_flags['domain'] = 10 
-    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_825'):
-        json_flags['domain'] = 11   
-    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_975'):
-        json_flags['domain'] = 12            
+        json_flags['domain'] = 48
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_1G_W'):
+        json_flags['domain'] = 49
+    if fnmatch.filter(build_flags, '*-DRegulatory_Domain_RT_Wide'):
+        json_flags['domain'] = 50
 else:
     json_flags['domain'] = 0
 

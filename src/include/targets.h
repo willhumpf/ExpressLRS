@@ -276,19 +276,77 @@ extern bool pwmSerialDefined;
 #undef Regulatory_Domain_US_433
 #undef Regulatory_Domain_US_433_WIDE
 #undef Regulatory_Domain_RT_800
+#undef Regulatory_Domain_RT_800_W
+#undef Regulatory_Domain_RT_810
+#undef Regulatory_Domain_RT_810_W
+#undef Regulatory_Domain_RT_820
+#undef Regulatory_Domain_RT_820_W
+#undef Regulatory_Domain_RT_830
+#undef Regulatory_Domain_RT_830_W
+#undef Regulatory_Domain_RT_840
+#undef Regulatory_Domain_RT_840_W
+#undef Regulatory_Domain_RT_850
+#undef Regulatory_Domain_RT_850_W
+#undef Regulatory_Domain_RT_860
+#undef Regulatory_Domain_RT_860_W
+#undef Regulatory_Domain_RT_870
+#undef Regulatory_Domain_RT_870_W
+#undef Regulatory_Domain_RT_880
+#undef Regulatory_Domain_RT_880_W
+#undef Regulatory_Domain_RT_890
+#undef Regulatory_Domain_RT_890_W
+#undef Regulatory_Domain_RT_900
+#undef Regulatory_Domain_RT_900_W
+#undef Regulatory_Domain_RT_910
+#undef Regulatory_Domain_RT_910_W
+#undef Regulatory_Domain_RT_920
+#undef Regulatory_Domain_RT_920_W
+#undef Regulatory_Domain_RT_930
+#undef Regulatory_Domain_RT_930_W
+#undef Regulatory_Domain_RT_940
+#undef Regulatory_Domain_RT_940_W
 #undef Regulatory_Domain_RT_950
+#undef Regulatory_Domain_RT_950_W
+#undef Regulatory_Domain_RT_960
+#undef Regulatory_Domain_RT_960_W
+#undef Regulatory_Domain_RT_970
+#undef Regulatory_Domain_RT_970_W
+#undef Regulatory_Domain_RT_980
+#undef Regulatory_Domain_RT_980_W
+#undef Regulatory_Domain_RT_990
+#undef Regulatory_Domain_RT_990_W
 #undef Regulatory_Domain_RT_1G
-#undef Regulatory_Domain_RT_825
-#undef Regulatory_Domain_RT_975
+#undef Regulatory_Domain_RT_1G_W
+#undef Regulatory_Domain_RT_Wide
+
 
 #elif defined(RADIO_SX127X) || defined(RADIO_LR1121)
 #if !(defined(Regulatory_Domain_AU_915) || defined(Regulatory_Domain_FCC_915) || \
         defined(Regulatory_Domain_EU_868) || defined(Regulatory_Domain_IN_866) || \
         defined(Regulatory_Domain_AU_433) || defined(Regulatory_Domain_EU_433) || \
         defined(Regulatory_Domain_US_433) || defined(Regulatory_Domain_US_433_WIDE) || \
-        defined(Regulatory_Domain_RT_800) || defined(Regulatory_Domain_RT_950) || \
-        defined(Regulatory_Domain_RT_1G) || defined(Regulatory_Domain_RT_825) || \
-        defined(Regulatory_Domain_RT_975) || \
+        defined(Regulatory_Domain_RT_800) || defined(Regulatory_Domain_RT_800_W) || \
+        defined(Regulatory_Domain_RT_810) || defined(Regulatory_Domain_RT_810_W) || \
+        defined(Regulatory_Domain_RT_820) || defined(Regulatory_Domain_RT_820_W) || \
+        defined(Regulatory_Domain_RT_830) || defined(Regulatory_Domain_RT_830_W) || \
+        defined(Regulatory_Domain_RT_840) || defined(Regulatory_Domain_RT_840_W) || \
+        defined(Regulatory_Domain_RT_850) || defined(Regulatory_Domain_RT_850_W) || \
+        defined(Regulatory_Domain_RT_860) || defined(Regulatory_Domain_RT_860_W) || \
+        defined(Regulatory_Domain_RT_870) || defined(Regulatory_Domain_RT_870_W) || \
+        defined(Regulatory_Domain_RT_880) || defined(Regulatory_Domain_RT_880_W) || \
+        defined(Regulatory_Domain_RT_890) || defined(Regulatory_Domain_RT_890_W) || \
+        defined(Regulatory_Domain_RT_900) || defined(Regulatory_Domain_RT_900_W) || \
+        defined(Regulatory_Domain_RT_910) || defined(Regulatory_Domain_RT_910_W) || \
+        defined(Regulatory_Domain_RT_920) || defined(Regulatory_Domain_RT_920_W) || \
+        defined(Regulatory_Domain_RT_930) || defined(Regulatory_Domain_RT_930_W) || \
+        defined(Regulatory_Domain_RT_940) || defined(Regulatory_Domain_RT_940_W) || \
+        defined(Regulatory_Domain_RT_950) || defined(Regulatory_Domain_RT_950_W) || \
+        defined(Regulatory_Domain_RT_960) || defined(Regulatory_Domain_RT_960_W) || \
+        defined(Regulatory_Domain_RT_970) || defined(Regulatory_Domain_RT_970_W) || \
+        defined(Regulatory_Domain_RT_980) || defined(Regulatory_Domain_RT_980_W) || \
+        defined(Regulatory_Domain_RT_990) || defined(Regulatory_Domain_RT_990_W) || \
+        defined(Regulatory_Domain_RT_1G)  || defined(Regulatory_Domain_RT_1G_W) || \
+        defined(Regulatory_Domain_RT_Wide)|| \
         defined(UNIT_TEST))
 #error "Regulatory_Domain is not defined for 900MHz device. Check user_defines.txt!"
 #endif
