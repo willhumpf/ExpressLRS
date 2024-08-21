@@ -24,10 +24,10 @@
 #-DRegulatory_Domain_EU_433
 #-DRegulatory_Domain_US_433
 #-DRegulatory_Domain_US_433_WIDE
-#-DRegulatory_Domain_FCC_915
+-DRegulatory_Domain_FCC_915
 #-DRegulatory_Domain_ISM_2400
 #-DRegulatory_Domain_EU_CE_2400
--DRegulatory_Domain_RT_800
+#-DRegulatory_Domain_RT_800
 #-DRegulatory_Domain_RT_800_W
 #-DRegulatory_Domain_RT_810
 #-DRegulatory_Domain_RT_810_W
@@ -103,9 +103,9 @@
 
 ### OTHER OPTIONS: ###
 
--DAUTO_WIFI_ON_INTERVAL=60
-#-DHOME_WIFI_SSID=""
-#-DHOME_WIFI_PASSWORD=""
+-DAUTO_WIFI_ON_INTERVAL=30
+-DHOME_WIFI_SSID="RT-Hotspot"
+-DHOME_WIFI_PASSWORD="RT-Update"
 
 # Enables code for talking to a connected ESP8266 backpack on the TX module, and associated Lua params
 # The device target should enable this automatically for devices that come with this, but can be added
